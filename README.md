@@ -1,1 +1,0 @@
-# Calendar-Of-Activities
