@@ -48,19 +48,20 @@
   </head>
   <body>
 
-    <div id="splash-screen" onclick="launchApp()">
-      <div style="text-align: center;">
-        <h1>SDO Biñan City</h1>
-        <p>Calendar of Activities</p>
-        <br>
-        <p style="font-weight: bold; border: 1px solid white; padding: 10px; background: rgba(0, 0, 0, 0.4);">
-          CLICK TO ENTER
-        </p>
-        <button id="installBtn" style="display: none; margin-top: 20px; padding: 10px 20px; background: #38bdf8; border: none; color: white; font-weight: bold; cursor: pointer; border-radius: 5px;">
-  INSTALL APP
-</button>
-      </div>
-    </div>
+   <div id="splash-screen" onclick="launchApp()">
+  <div style="text-align: center; display: flex; flex-direction: column; align-items: center; gap: 15px;">
+    <h1>SDO Biñan City</h1>
+    <p>Calendar of Activities</p>
+    
+    <p style="font-weight: bold; border: 1px solid white; padding: 10px; background: rgba(0, 0, 0, 0.4); cursor: pointer;">
+      CLICK TO ENTER
+    </p>
+
+    <button id="installBtn" style="display: none; padding: 10px 20px; background: #38bdf8; border: none; color: white; font-weight: bold; cursor: pointer; border-radius: 5px;">
+      INSTALL APP
+    </button>
+  </div>
+</div>
 
     <iframe 
       id="appFrame"
